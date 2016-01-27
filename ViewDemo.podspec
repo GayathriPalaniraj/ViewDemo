@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "GAYATHRI_P" => "gayathri1311@gmail.com" }
-  s.source           = { :git => "https://github.com/GayathriPalaniraj/ViewDemo.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/GayathriPalaniraj/ViewDemo.git", :tag => s.version, :submodules => true }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
   }
 
 
-#ss.source_files = 'Pod/Classes/ViewColor.{h,m}'
-#ss.public_header_files = 'Pod/Classes/ViewColor.h'
+ss.source_files = 'Pod/Classes/ViewColor.{h,m}'
+ss.public_header_files = 'Pod/Classes/ViewColor.h'
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

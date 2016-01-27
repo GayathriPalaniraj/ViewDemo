@@ -1,0 +1,14 @@
+PODS:
+  - ViewDemo (0.1.0)
+
+DEPENDENCIES:
+  - ViewDemo (from `../`)
+
+EXTERNAL SOURCES:
+  ViewDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ViewDemo: fa953600b9e7e2fc68cea2f86f3c52fcc675f3ac
+
+COCOAPODS: 0.39.0
